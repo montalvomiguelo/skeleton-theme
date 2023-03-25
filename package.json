@@ -17,5 +17,8 @@
   "devDependencies": {
     "@shopify/prettier-plugin-liquid": "^1.0.6",
     "prettier": "^2.8.7"
+  },
+  "scripts": {
+    "format": "prettier -w . --cache --plugin-search-dir=."
   }
 }
