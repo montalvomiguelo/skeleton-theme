@@ -15,14 +15,18 @@
     "url": "https://github.com/Shopify/skeleton-theme.git"
   },
   "devDependencies": {
+    "@antfu/eslint-config": "^0.38.0",
     "@shopify/prettier-plugin-liquid": "^1.0.6",
+    "eslint": "^8.0.1",
     "prettier": "^2.8.7",
+    "typescript": "*",
     "vite": "^4.2.1",
     "vite-plugin-shopify": "^2.0.2"
   },
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "format": "prettier -w . --cache --plugin-search-dir=."
+    "format": "prettier -w . --cache --plugin-search-dir=.",
+    "lint": "eslint ."
   }
 }
