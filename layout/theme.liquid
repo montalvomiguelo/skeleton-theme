@@ -11,8 +11,10 @@
 
     <meta name="description" content="">
 
-  {{ 'theme.css' | asset_url | stylesheet_tag }}
-  <script type="module" src="{{ 'theme.js' | asset_url }}"></script>
+    {%- liquid
+      render 'vite-tag' with 'theme.css'
+      render 'vite-tag' with 'theme.ts'
+    -%}
 
     {{ content_for_header }}
   </head>

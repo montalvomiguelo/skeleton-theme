@@ -16,9 +16,13 @@
   },
   "devDependencies": {
     "@shopify/prettier-plugin-liquid": "^1.0.6",
-    "prettier": "^2.8.7"
+    "prettier": "^2.8.7",
+    "vite": "^4.2.1",
+    "vite-plugin-shopify": "^2.0.2"
   },
   "scripts": {
+    "dev": "vite",
+    "build": "vite build",
     "format": "prettier -w . --cache --plugin-search-dir=."
   }
 }
