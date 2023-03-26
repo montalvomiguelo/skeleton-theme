@@ -13,7 +13,7 @@ You'll want to ensure you have the following already installed on your local mac
 To start with Skeleton Theme, run the following command in your terminal:
 
 ```
-$ shopify theme dev
+$ shopify theme dev --live-reload full-page
 ```
 
 For more information on connecting your new project with a Shopify store, see the [Shopify CLI docs](https://shopify.dev/docs/themes/getting-started/create#step-3-start-a-local-development-server).
