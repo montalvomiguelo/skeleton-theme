@@ -23,8 +23,11 @@
   "devDependencies": {
     "@antfu/eslint-config": "^0.38.0",
     "@shopify/prettier-plugin-liquid": "^1.0.6",
+    "autoprefixer": "^10.4.14",
     "eslint": "^8.0.1",
+    "postcss": "^8.4.21",
     "prettier": "^2.8.7",
+    "tailwindcss": "^3.2.7",
     "typescript": "*",
     "vite": "^4.2.1",
     "vite-plugin-shopify": "^2.0.2"
