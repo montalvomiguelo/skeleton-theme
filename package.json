@@ -15,7 +15,9 @@
     "theme"
   ],
   "scripts": {
-    "dev": "vite",
+    "dev": "concurrently --raw --kill-others \"pnpm run dev:shopify\" \"pnpm run dev:vite\"",
+    "dev:shopify": "shopify theme dev --live-reload full-page --store $npm_package_config_store",
+    "dev:vite": "vite",
     "build": "vite build",
     "format": "prettier -w . --cache --plugin-search-dir=.",
     "lint": "eslint ."
@@ -24,6 +26,7 @@
     "@antfu/eslint-config": "^0.38.0",
     "@shopify/prettier-plugin-liquid": "^1.0.6",
     "autoprefixer": "^10.4.14",
+    "concurrently": "^8.0.1",
     "eslint": "^8.0.1",
     "postcss": "^8.4.21",
     "prettier": "^2.8.7",
@@ -32,5 +35,8 @@
     "typescript": "*",
     "vite": "^4.2.1",
     "vite-plugin-shopify": "^2.0.2"
+  },
+  "config": {
+    "store": "my-shop.myshopify.com"
   }
 }
