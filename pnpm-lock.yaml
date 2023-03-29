@@ -8,11 +8,11 @@ specifiers:
   eslint: ^8.0.1
   postcss: ^8.4.21
   prettier: ^2.8.7
-  prettier-plugin-tailwindcss: ^0.2.5
+  prettier-plugin-tailwindcss: ^0.2.6
   tailwindcss: ^3.2.7
-  typescript: '*'
+  typescript: ^5.0.2
   vite: ^4.2.1
-  vite-plugin-shopify: ^2.0.2
+  vite-plugin-shopify: ^2.1.0
 
 devDependencies:
   '@antfu/eslint-config': 0.38.0_j4766f7ecgqbon3u7zlxn5zszu
@@ -26,7 +26,7 @@ devDependencies:
   tailwindcss: 3.3.0_postcss@8.4.21
   typescript: 5.0.2
   vite: 4.2.1
-  vite-plugin-shopify: 2.0.2_vite@4.2.1
+  vite-plugin-shopify: 2.1.0_vite@4.2.1
 
 packages:
 
@@ -3038,8 +3038,8 @@ packages:
       spdx-expression-parse: 3.0.1
     dev: true
 
-  /vite-plugin-shopify/2.0.2_vite@4.2.1:
-    resolution: {integrity: sha512-tz2QXMe7FpWX/igRNq6TzHM5XP7YSvufESXYOEYTXQQ/leyL8+uKThe6yA1o1aJ1Mf32jmoEkcwwDv3hkvJTMQ==}
+  /vite-plugin-shopify/2.1.0_vite@4.2.1:
+    resolution: {integrity: sha512-ZwcZpZTL3toQsqDzzPA1VpocZdvbyhjDCA/bFCxuUNoKy+ubC3c+Oq+tPMVWsMLGRtVxFwZDGgMSUg4s38pQAQ==}
     peerDependencies:
       vite: ^4.0.4
     dependencies:
