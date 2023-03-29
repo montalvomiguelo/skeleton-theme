@@ -2,17 +2,23 @@
   "name": "skeleton-theme",
   "version": "1.0.0-alpha.1",
   "private": true,
-  "author": "Shopify Inc.",
   "description": "A barebones, Slate compatible, starting point for developing Shopify themes.",
-  "keywords": [
-    "shopify",
-    "theme"
-  ],
-  "bugs": "https://github.com/Shopify/skeleton-theme/issues",
+  "author": "Shopify Inc.",
   "license": "MIT",
   "repository": {
     "type": "git",
     "url": "https://github.com/Shopify/skeleton-theme.git"
+  },
+  "bugs": "https://github.com/Shopify/skeleton-theme/issues",
+  "keywords": [
+    "shopify",
+    "theme"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "format": "prettier -w . --cache --plugin-search-dir=.",
+    "lint": "eslint ."
   },
   "devDependencies": {
     "@antfu/eslint-config": "^0.38.0",
@@ -22,11 +28,5 @@
     "typescript": "*",
     "vite": "^4.2.1",
     "vite-plugin-shopify": "^2.0.2"
-  },
-  "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "format": "prettier -w . --cache --plugin-search-dir=.",
-    "lint": "eslint ."
   }
 }
