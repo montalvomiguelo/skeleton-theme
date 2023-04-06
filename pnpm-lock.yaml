@@ -8,8 +8,8 @@ specifiers:
   eslint: ^8.0.1
   postcss: ^8.4.21
   prettier: ^2.8.7
-  prettier-plugin-tailwindcss: ^0.2.6
-  tailwindcss: ^3.2.7
+  prettier-plugin-tailwindcss: ^0.2.7
+  tailwindcss: ^3.3.1
   typescript: ^5.0.2
   vite: ^4.2.1
   vite-plugin-shopify: ^2.1.0
@@ -22,8 +22,8 @@ devDependencies:
   eslint: 8.36.0
   postcss: 8.4.21
   prettier: 2.8.7
-  prettier-plugin-tailwindcss: 0.2.6_nxbddqkitj2z4wq2nej44m75vu
-  tailwindcss: 3.3.0_postcss@8.4.21
+  prettier-plugin-tailwindcss: 0.2.7_nxbddqkitj2z4wq2nej44m75vu
+  tailwindcss: 3.3.1_postcss@8.4.21
   typescript: 5.0.2
   vite: 4.2.1
   vite-plugin-shopify: 2.1.0_vite@4.2.1
@@ -2490,8 +2490,8 @@ packages:
     engines: {node: '>= 0.8.0'}
     dev: true
 
-  /prettier-plugin-tailwindcss/0.2.6_nxbddqkitj2z4wq2nej44m75vu:
-    resolution: {integrity: sha512-F+7XCl9RLF/LPrGdUMHWpsT6TM31JraonAUyE6eBmpqymFvDwyl0ETHsKFHP1NG+sEfv8bmKqnTxEbWQbHPlBA==}
+  /prettier-plugin-tailwindcss/0.2.7_nxbddqkitj2z4wq2nej44m75vu:
+    resolution: {integrity: sha512-jQopIOgjLpX+y8HeD56XZw7onupRTC0cw7eKKUimI7vhjkPF5/1ltW5LyqaPtSyc8HvEpvNZsvvsGFa2qpa59w==}
     engines: {node: '>=12.17.0'}
     peerDependencies:
       '@ianvs/prettier-plugin-sort-imports': '*'
@@ -2864,8 +2864,8 @@ packages:
     engines: {node: '>= 0.4'}
     dev: true
 
-  /tailwindcss/3.3.0_postcss@8.4.21:
-    resolution: {integrity: sha512-hOXlFx+YcklJ8kXiCAfk/FMyr4Pm9ck477G0m/us2344Vuj355IpoEDB5UmGAsSpTBmr+4ZhjzW04JuFXkb/fw==}
+  /tailwindcss/3.3.1_postcss@8.4.21:
+    resolution: {integrity: sha512-Vkiouc41d4CEq0ujXl6oiGFQ7bA3WEhUZdTgXAhtKxSy49OmKs8rEfQmupsfF0IGW8fv2iQkp1EVUuapCFrZ9g==}
     engines: {node: '>=12.13.0'}
     hasBin: true
     peerDependencies:
