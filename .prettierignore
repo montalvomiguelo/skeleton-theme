@@ -2,5 +2,6 @@ assets
 pnpm-lock.yaml
 *.cjs
 *.ts
+*.js
 frontend
 vite-tag.liquid
