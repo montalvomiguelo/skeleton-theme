@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="{{ shop.locale }}">
+<html lang="{{ request.locale.iso_code }}">
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,7 +12,7 @@
   <meta name="description" content="">
 
   {{ 'theme.css' | asset_url | stylesheet_tag }}
-  <script src="{{ 'theme.js' | asset_url }}" defer="defer"></script>
+  <script type="module" src="{{ 'theme.js' | asset_url }}"></script>
 
   {{ content_for_header }}
 </head>
