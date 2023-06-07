@@ -21,7 +21,7 @@
     "build": "vite build",
     "format": "prettier -w . --cache --plugin-search-dir=.",
     "lint": "eslint .",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc"
   },
   "devDependencies": {
     "@antfu/eslint-config": "^0.39.4",
