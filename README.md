@@ -1,26 +1,22 @@
-[![Build Status](https://travis-ci.org/Shopify/skeleton-theme.svg?branch=master)](https://travis-ci.org/Shopify/skeleton-theme)
-
 # Skeleton Theme
 
-> **Skeleton Theme and [Slate v1](https://github.com/Shopify/slate) are currently in beta!** You should expect potentially breaking changes between updates and more bugs than a finalized release. Slate v1.0 has not yet been tested on Windows.
+A barebones ☠️ starter theme.
 
 ## System requirements
 
 You'll want to ensure you have the following already installed on your local machine before getting started with Skeleton theme:
 
-* **Node:** The current LTS (long-term support) release. We like to use a Node Version Manager like [NVM](https://github.com/creationix/nvm).
-
-* **NPM 5+ or Yarn:** Both of these package managers have [ups and downs](https://blog.risingstack.com/yarn-vs-npm-node-js-package-managers/), choose whichever you prefer. Follow the installation instructions [for Yarn](https://yarnpkg.com/en/docs/install) or [NPM](https://www.npmjs.com/get-npm) to make sure you're using the latest version.
+- **Shopify CLI for themes:** To learn how to install Shopify CLI on Windows, macOS, or Linux, refer to [Install Shopify CLI](https://shopify.dev/docs/themes/tools/cli/install).
 
 ## Getting started
 
-To get started with Skeleton Theme, run the following command in your terminal:
+To start with Skeleton Theme, run the following command in your terminal:
 
 ```
-$ yarn create slate-theme my-new-theme shopify/skeleton-theme
+$ shopify theme dev
 ```
 
-For more information on connecting your new project with a Shopify store, see the [Slate docs](https://github.com/Shopify/slate/wiki/3.-Connect-to-your-store).
+For more information on connecting your new project with a Shopify store, see the [Shopify CLI docs](https://shopify.dev/docs/themes/getting-started/create#step-3-start-a-local-development-server).
 
 ## Contributing
 
