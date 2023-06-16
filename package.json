@@ -26,11 +26,13 @@
     "typecheck": "tsc"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "^0.39.4",
     "@shopify/prettier-plugin-liquid": "^1.0.6",
+    "@typescript-eslint/eslint-plugin": "^5.59.11",
+    "@typescript-eslint/parser": "^5.59.11",
     "autoprefixer": "^10.4.14",
     "concurrently": "^8.0.1",
     "eslint": "^8.41.0",
+    "eslint-plugin-prettier": "^4.2.1",
     "postcss": "^8.4.21",
     "prettier": "^2.8.7",
     "prettier-plugin-tailwindcss": "^0.2.7",
@@ -38,5 +40,8 @@
     "typescript": "^5.0.4",
     "vite": "^4.3.9",
     "vite-plugin-shopify": "^2.1.1"
+  },
+  "dependencies": {
+    "eslint-config-prettier": "^8.8.0"
   }
 }
