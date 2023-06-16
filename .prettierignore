@@ -1,11 +1,3 @@
-*.cjs
-*.d.ts
-*.js
-*.jsx
-*.mjs
-*.ts
-*.tsx
 assets
-frontend
 pnpm-lock.yaml
 vite-tag.liquid
