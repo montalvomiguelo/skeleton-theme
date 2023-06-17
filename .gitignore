@@ -61,7 +61,6 @@ Thumbs.db
 .cache/*
 _site
 /.idea
-/.vscode
 /.vim
 secrets.json
 .jekyll-metadata
