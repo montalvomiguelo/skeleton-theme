@@ -1,5 +1,9 @@
 lockfileVersion: '6.0'
 
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
 dependencies:
   eslint-config-prettier:
     specifier: ^8.8.0
@@ -46,8 +50,8 @@ devDependencies:
     specifier: ^4.3.9
     version: 4.3.9
   vite-plugin-shopify:
-    specifier: ^2.1.1
-    version: 2.1.1(vite@4.3.9)
+    specifier: ^2.2.0
+    version: 2.2.0(vite@4.3.9)
 
 packages:
 
@@ -1744,8 +1748,8 @@ packages:
     resolution: {integrity: sha512-EPD5q1uXyFxJpCrLnCc1nHnq3gOa6DZBocAIiI2TaSCA7VCJ1UJDMagCzIkXNsUYfD1daK//LTEQ8xiIbrHtcw==}
     dev: true
 
-  /vite-plugin-shopify@2.1.1(vite@4.3.9):
-    resolution: {integrity: sha512-B/PciyVCZZ/VpNj2REG+UC/NijfcbN2cUxBWZ7HEPcgL0QfM+n4lvDv0h2XrovsCxV6LV0EVdnhWOpNpYe3paA==}
+  /vite-plugin-shopify@2.2.0(vite@4.3.9):
+    resolution: {integrity: sha512-gNNANfty//QfkMvGW5BJrpVdQw/oebukyXOD9NfDHALtC6DA7eBSM4pnHEjWb5CQtGH456rUX3b6uU4xvUbeWw==}
     peerDependencies:
       vite: ^4.0.4
     dependencies:
