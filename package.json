@@ -15,11 +15,11 @@
     "theme"
   ],
   "scripts": {
-    "dev": "concurrently --raw --kill-others --passthrough-arguments \"pnpm run dev:shopify {@}\" \"pnpm run dev:vite\" --",
-    "dev:shopify": "shopify theme dev",
-    "dev:vite": "vite",
-    "deploy": "pnpm run build && pnpm run deploy:shopify",
-    "deploy:shopify": "shopify theme push",
+    "dev": "concurrently --raw --kill-others --passthrough-arguments \"pnpm run shopify:dev {@}\" \"pnpm run vite:dev\" --",
+    "shopify:dev": "shopify theme dev",
+    "vite:dev": "vite",
+    "deploy": "pnpm run build && pnpm run shopify:push",
+    "shopify:push": "shopify theme push",
     "build": "vite build",
     "format": "prettier -w . --cache --plugin-search-dir=.",
     "lint": "eslint .",
