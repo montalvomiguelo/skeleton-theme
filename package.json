@@ -3,7 +3,7 @@
   "version": "1.0.0-alpha.1",
   "private": true,
   "type": "module",
-  "description": "A barebones, Slate compatible, starting point for developing Shopify themes.",
+  "description": "A barebones, Vite compatible, starting point for developing Shopify themes.",
   "author": "Shopify Inc.",
   "license": "MIT",
   "repository": {
