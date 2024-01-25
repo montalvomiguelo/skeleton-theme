@@ -2,6 +2,7 @@
   "name": "skeleton-theme",
   "version": "1.0.0-alpha.1",
   "private": true,
+  "type": "module",
   "description": "A barebones, Slate compatible, starting point for developing Shopify themes.",
   "author": "Shopify Inc.",
   "license": "MIT",
@@ -15,7 +16,7 @@
     "theme"
   ],
   "scripts": {
-    "dev": "concurrently --raw --kill-others --passthrough-arguments \"pnpm run shopify:dev {@}\" \"pnpm run vite:dev\" --",
+    "dev": "concurrently --raw --kill-others --passthrough-arguments \"pnpm run shopify:dev {@}\" \"pnpm run vite:dev\"",
     "shopify:dev": "shopify theme dev",
     "vite:dev": "vite",
     "deploy": "pnpm run build && pnpm run shopify:push",
@@ -26,7 +27,8 @@
     "typecheck": "tsc"
   },
   "devDependencies": {
-    "@shopify/prettier-plugin-liquid": "^1.0.6",
+    "@shopify/prettier-plugin-liquid": "^1.2.2",
+    "@types/prettier": "^2.7.2",
     "@typescript-eslint/eslint-plugin": "^5.59.11",
     "@typescript-eslint/parser": "^5.59.11",
     "autoprefixer": "^10.4.14",
@@ -35,11 +37,11 @@
     "eslint-config-prettier": "^8.8.0",
     "eslint-plugin-prettier": "^4.2.1",
     "postcss": "^8.4.21",
-    "prettier": "^2.8.7",
-    "prettier-plugin-tailwindcss": "^0.2.7",
+    "prettier": "^2.8.8",
+    "prettier-plugin-tailwindcss": "^0.4.1",
     "tailwindcss": "^3.3.1",
     "typescript": "^5.0.4",
-    "vite": "^4.3.9",
-    "vite-plugin-shopify": "^2.2.1"
+    "vite": "^5.0.12",
+    "vite-plugin-shopify": "^3.0.0"
   }
 }

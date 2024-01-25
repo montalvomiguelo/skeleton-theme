@@ -18,7 +18,7 @@ To start with Skeleton Theme, the following commands are available:
 
 ```bash
 # Launch the Shopify and Vite servers in parallel
-$ pnpm dev --store johns-apparel --live-reload full-page
+$ pnpm dev -- --store johns-apparel --live-reload full-page
 ```
 
 ```bash

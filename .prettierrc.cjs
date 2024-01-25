@@ -1,10 +1,14 @@
+/** @type {import('prettier').Config} */
 module.exports = {
-  plugins: [require("@shopify/prettier-plugin-liquid/standalone"), require("prettier-plugin-tailwindcss")],
+  printWidth: 120,
+  singleQuote: true,
+  plugins: [require('@shopify/prettier-plugin-liquid/standalone'), require('prettier-plugin-tailwindcss')],
   overrides: [
     {
-      files: "*.liquid",
+      files: '*.liquid',
       options: {
-        parser: "liquid-html",
+        parser: 'liquid-html',
+        singleQuote: false,
       },
     },
   ],
