@@ -12,12 +12,9 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "checkJs": true,
-    "allowJs": true,
-    "noEmit": true,
     "paths": {
       "@/*": ["frontend/*"],
       "~/*": ["frontend/*"]
     }
-  },
-  "include": ["frontend"]
+  }
 }
