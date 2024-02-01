@@ -2,7 +2,7 @@
 module.exports = {
   printWidth: 120,
   singleQuote: true,
-  plugins: ['@shopify/prettier-plugin-liquid/standalone', 'prettier-plugin-tailwindcss'],
+  plugins: [require.resolve('@shopify/prettier-plugin-liquid/standalone'), 'prettier-plugin-tailwindcss'],
   overrides: [
     {
       files: '*.liquid',
