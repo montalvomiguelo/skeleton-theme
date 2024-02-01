@@ -1,6 +1,6 @@
 /** @type {import('prettier').Config} */
 module.exports = {
-  printWidth: 120,
+  printWidth: 100,
   singleQuote: true,
   plugins: [require.resolve('@shopify/prettier-plugin-liquid/standalone'), 'prettier-plugin-tailwindcss'],
   overrides: [
