@@ -7,7 +7,7 @@ settings:
 devDependencies:
   '@shopify/prettier-plugin-liquid':
     specifier: ^1.4.1
-    version: 1.4.1(prettier@2.8.8)
+    version: 1.4.1(prettier@3.2.4)
   '@types/prettier':
     specifier: ^2.7.3
     version: 2.7.3
@@ -24,8 +24,8 @@ devDependencies:
     specifier: ^8.7.0
     version: 8.7.0(eslint@8.56.0)
   eslint-plugin-prettier:
-    specifier: ^4.2.1
-    version: 4.2.1(eslint-config-prettier@8.7.0)(eslint@8.56.0)(prettier@2.8.8)
+    specifier: ^5.1.3
+    version: 5.1.3(eslint-config-prettier@8.7.0)(eslint@8.56.0)(prettier@3.2.4)
   postcss:
     specifier: ^8.4.33
     version: 8.4.33
@@ -33,11 +33,11 @@ devDependencies:
     specifier: ^5.0.2
     version: 5.0.2(postcss@8.4.33)
   prettier:
-    specifier: ^2.8.8
-    version: 2.8.8
+    specifier: ^3.2.4
+    version: 3.2.4
   prettier-plugin-tailwindcss:
-    specifier: ^0.4.1
-    version: 0.4.1(@shopify/prettier-plugin-liquid@1.4.1)(prettier@2.8.8)
+    specifier: ^0.5.11
+    version: 0.5.11(@shopify/prettier-plugin-liquid@1.4.1)(prettier@3.2.4)
   tailwindcss:
     specifier: ^3.4.1
     version: 3.4.1
@@ -401,6 +401,11 @@ packages:
     dev: true
     optional: true
 
+  /@pkgr/core@0.1.1:
+    resolution: {integrity: sha512-cq8o4cWH0ibXh9VGi5P20Tu9XF/0fFXl9EUinr9QfTM7a7p0oTA4iJRCQWppXR1Pg8dSM0UCItCkPwsk9qWWYA==}
+    engines: {node: ^12.20.0 || ^14.18.0 || >=16.0.0}
+    dev: true
+
   /@rollup/rollup-android-arm-eabi@4.9.6:
     resolution: {integrity: sha512-MVNXSSYN6QXOulbHpLMKYi60ppyO13W9my1qogeiAqtjb2yR4LSmfU2+POvDkLzhjYLXz9Rf9+9a3zFHW1Lecg==}
     cpu: [arm]
@@ -512,14 +517,14 @@ packages:
       ohm-js: 16.6.0
     dev: true
 
-  /@shopify/prettier-plugin-liquid@1.4.1(prettier@2.8.8):
+  /@shopify/prettier-plugin-liquid@1.4.1(prettier@3.2.4):
     resolution: {integrity: sha512-iAN1GcxZ+fm2gvxg763QHDh80FJQQ/mt74199BbO5Vq0+KhlIbcctt0mMq0gSV/H72B4ey1kipfyPLbK2kgQXg==}
     peerDependencies:
       prettier: ^2.0.0 || ^3.0.0
     dependencies:
       '@shopify/liquid-html-parser': 2.0.1
       html-styles: 1.0.0
-      prettier: 2.8.8
+      prettier: 3.2.4
     dev: true
 
   /@types/estree@1.0.5:
@@ -856,21 +861,25 @@ packages:
       eslint: 8.56.0
     dev: true
 
-  /eslint-plugin-prettier@4.2.1(eslint-config-prettier@8.7.0)(eslint@8.56.0)(prettier@2.8.8):
-    resolution: {integrity: sha512-f/0rXLXUt0oFYs8ra4w49wYZBG5GKZpAYsJSm6rnYL5uVDjd+zowwMwVZHnAjf4edNrKpCDYfXDgmRE/Ak7QyQ==}
-    engines: {node: '>=12.0.0'}
+  /eslint-plugin-prettier@5.1.3(eslint-config-prettier@8.7.0)(eslint@8.56.0)(prettier@3.2.4):
+    resolution: {integrity: sha512-C9GCVAs4Eq7ZC/XFQHITLiHJxQngdtraXaM+LoUFoFp/lHNl2Zn8f3WQbe9HvTBBQ9YnKFB0/2Ajdqwo5D1EAw==}
+    engines: {node: ^14.18.0 || >=16.0.0}
     peerDependencies:
-      eslint: '>=7.28.0'
+      '@types/eslint': '>=8.0.0'
+      eslint: '>=8.0.0'
       eslint-config-prettier: '*'
-      prettier: '>=2.0.0'
+      prettier: '>=3.0.0'
     peerDependenciesMeta:
+      '@types/eslint':
+        optional: true
       eslint-config-prettier:
         optional: true
     dependencies:
       eslint: 8.56.0
       eslint-config-prettier: 8.7.0(eslint@8.56.0)
-      prettier: 2.8.8
+      prettier: 3.2.4
       prettier-linter-helpers: 1.0.0
+      synckit: 0.8.8
     dev: true
 
   /eslint-scope@7.2.2:
@@ -1569,16 +1578,15 @@ packages:
       fast-diff: 1.3.0
     dev: true
 
-  /prettier-plugin-tailwindcss@0.4.1(@shopify/prettier-plugin-liquid@1.4.1)(prettier@2.8.8):
-    resolution: {integrity: sha512-hwn2EiJmv8M+AW4YDkbjJ6HlZCTzLyz1QlySn9sMuKV/Px0fjwldlB7tol8GzdgqtkdPtzT3iJ4UzdnYXP25Ag==}
-    engines: {node: '>=12.17.0'}
+  /prettier-plugin-tailwindcss@0.5.11(@shopify/prettier-plugin-liquid@1.4.1)(prettier@3.2.4):
+    resolution: {integrity: sha512-AvI/DNyMctyyxGOjyePgi/gqj5hJYClZ1avtQvLlqMT3uDZkRbi4HhGUpok3DRzv9z7Lti85Kdj3s3/1CeNI0w==}
+    engines: {node: '>=14.21.3'}
     peerDependencies:
       '@ianvs/prettier-plugin-sort-imports': '*'
       '@prettier/plugin-pug': '*'
       '@shopify/prettier-plugin-liquid': '*'
-      '@shufo/prettier-plugin-blade': '*'
       '@trivago/prettier-plugin-sort-imports': '*'
-      prettier: ^2.2 || ^3.0
+      prettier: ^3.0
       prettier-plugin-astro: '*'
       prettier-plugin-css-order: '*'
       prettier-plugin-import-sort: '*'
@@ -1595,8 +1603,6 @@ packages:
       '@prettier/plugin-pug':
         optional: true
       '@shopify/prettier-plugin-liquid':
-        optional: true
-      '@shufo/prettier-plugin-blade':
         optional: true
       '@trivago/prettier-plugin-sort-imports':
         optional: true
@@ -1621,13 +1627,13 @@ packages:
       prettier-plugin-twig-melody:
         optional: true
     dependencies:
-      '@shopify/prettier-plugin-liquid': 1.4.1(prettier@2.8.8)
-      prettier: 2.8.8
+      '@shopify/prettier-plugin-liquid': 1.4.1(prettier@3.2.4)
+      prettier: 3.2.4
     dev: true
 
-  /prettier@2.8.8:
-    resolution: {integrity: sha512-tdN8qQGvNjw4CHbY+XXk0JgCXn9QiF21a55rBe5LJAU+kDyC4WQn4+awm2Xfk2lQMk5fKup9XgzTZtGkjBdP9Q==}
-    engines: {node: '>=10.13.0'}
+  /prettier@3.2.4:
+    resolution: {integrity: sha512-FWu1oLHKCrtpO1ypU6J0SbK2d9Ckwysq6bHj/uaCP26DxrPpppCLQRGVuqAxSTvhF00AcvDRyYrLNW7ocBhFFQ==}
+    engines: {node: '>=14'}
     hasBin: true
     dev: true
 
@@ -1823,6 +1829,14 @@ packages:
     engines: {node: '>= 0.4'}
     dev: true
 
+  /synckit@0.8.8:
+    resolution: {integrity: sha512-HwOKAP7Wc5aRGYdKH+dw0PRRpbO841v2DENBtjnR5HFWoiNByAl7vrx3p0G/rCyYXQsrxqtX48TImFtPcIHSpQ==}
+    engines: {node: ^14.18.0 || >=16.0.0}
+    dependencies:
+      '@pkgr/core': 0.1.1
+      tslib: 2.6.2
+    dev: true
+
   /tailwindcss@3.4.1:
     resolution: {integrity: sha512-qAYmXRfk3ENzuPBakNK0SRrUDipP8NQnEY6772uDhflcQz5EhRdD7JNZxyrFHVQNCwULPBn6FNPp9brpO7ctcA==}
     engines: {node: '>=14.0.0'}
@@ -1889,6 +1903,10 @@ packages:
 
   /tslib@2.5.0:
     resolution: {integrity: sha512-336iVw3rtn2BUK7ORdIAHTyxHGRIHVReokCR3XjbckJMK7ms8FysBfhLR8IXnAgy7T0PTPNBWKiH514FOW/WSg==}
+    dev: true
+
+  /tslib@2.6.2:
+    resolution: {integrity: sha512-AEYxH93jGFPn/a2iVAwW87VuUIkR1FVUKB77NwMF7nBTDkDrrT/Hpt/IrCJ0QXhW27jTBDcf5ZY7w6RiqTMw2Q==}
     dev: true
 
   /type-check@0.4.0:
