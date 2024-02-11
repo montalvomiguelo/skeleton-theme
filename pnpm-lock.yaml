@@ -8,9 +8,6 @@ devDependencies:
   '@shopify/prettier-plugin-liquid':
     specifier: ^1.4.1
     version: 1.4.1(prettier@3.2.4)
-  '@types/prettier':
-    specifier: ^2.7.3
-    version: 2.7.3
   autoprefixer:
     specifier: ^10.4.17
     version: 10.4.17(postcss@8.4.33)
@@ -529,10 +526,6 @@ packages:
 
   /@types/estree@1.0.5:
     resolution: {integrity: sha512-/kYRxGDLWzHOB7q+wtSUQlFrtcdUccpfy+X+9iMBpHK8QLLhx2wIPYuS5DYtR9Wa/YlZAbIovy7qVdB1Aq6Lyw==}
-    dev: true
-
-  /@types/prettier@2.7.3:
-    resolution: {integrity: sha512-+68kP9yzs4LMp7VNh8gdzMSPZFL44MLGqiHWvttYJe+6qnuVr4Ek9wSBQoveqY/r+LwjCcU29kNVkidwim+kYA==}
     dev: true
 
   /@ungap/structured-clone@1.2.0:
