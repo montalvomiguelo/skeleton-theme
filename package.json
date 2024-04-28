@@ -38,6 +38,10 @@
     "prettier-plugin-tailwindcss": "^0.5.11",
     "tailwindcss": "^3.4.1",
     "vite": "^5.0.12",
-    "vite-plugin-shopify": "^3.0.0"
+    "vite-plugin-shopify": "^3.0.0",
+    "vite-plugin-solid": "^2.10.2"
+  },
+  "dependencies": {
+    "solid-js": "^1.8.17"
   }
 }

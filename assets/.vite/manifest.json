@@ -4,9 +4,9 @@
     "isEntry": true,
     "src": "frontend/entrypoints/theme.css"
   },
-  "frontend/entrypoints/theme.js": {
-    "file": "theme.9p4a8sJU.min.js",
+  "frontend/entrypoints/theme.jsx": {
+    "file": "theme.kflQmujd.min.js",
     "isEntry": true,
-    "src": "frontend/entrypoints/theme.js"
+    "src": "frontend/entrypoints/theme.jsx"
   }
 }
