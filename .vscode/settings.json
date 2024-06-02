@@ -1,14 +1,5 @@
 {
-  "editor.formatOnSave": false,
+  "editor.formatOnSave": true,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "[javascript]": {
-    "editor.formatOnSave": true
-  },
-  "[css]": {
-    "editor.formatOnSave": true
-  },
-  "[liquid]": {
-    "editor.formatOnSave": true
-  },
   "prettier.documentSelectors": ["**/*.liquid"]
 }
