@@ -16,10 +16,10 @@
     "theme"
   ],
   "scripts": {
-    "dev": "concurrently --raw --kill-others --passthrough-arguments \"pnpm run shopify:dev {@}\" \"pnpm run vite:dev\"",
+    "dev": "run-p -sr \"shopify:dev -- {@}\" \"vite:dev\" --",
     "shopify:dev": "shopify theme dev",
     "vite:dev": "vite",
-    "deploy": "pnpm run build && pnpm run shopify:push",
+    "deploy": "run-s \"build\" \"shopify:push -- {@}\" --",
     "shopify:push": "shopify theme push",
     "build": "vite build",
     "format": "prettier --write --cache .",
@@ -28,18 +28,18 @@
   "devDependencies": {
     "@shopify/prettier-plugin-liquid": "^1.5.2",
     "autoprefixer": "^10.4.20",
-    "concurrently": "^9.0.1",
     "eslint": "^9.13.0",
     "eslint-config-prettier": "^9.1.0",
     "eslint-plugin-prettier": "^5.2.1",
     "globals": "^15.11.0",
+    "npm-run-all": "^4.1.5",
     "postcss": "^8.4.47",
     "postcss-load-config": "^6.0.1",
     "prettier": "^3.3.3",
     "prettier-plugin-tailwindcss": "^0.6.8",
     "tailwindcss": "^3.4.14",
     "vite": "^5.4.10",
-    "vite-plugin-shopify": "^3.0.1",
-    "vite-plugin-shopify-import-maps": "^0.5.4"
+    "vite-plugin-shopify-import-maps": "^0.5.4",
+    "vite-plugin-shopify-snapshot": "^0.0.0-snapshot-202410261610"
   }
 }
