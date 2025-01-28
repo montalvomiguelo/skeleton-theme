@@ -10,6 +10,14 @@ export default defineConfig({
     tailwindcss(),
     importMaps({ bareModules: true }),
   ],
+  server: {
+    cors: {
+      origin: [
+        /^https?:\/\/(?:(?:[^:]+\.)?localhost|127\.0\.0\.1|\[::1\])(?::\d+)?$/,
+        'https://johns-apparel.myshopify.com', // Store URL
+      ],
+    },
+  },
   build: {
     minify: false,
     rollupOptions: {
