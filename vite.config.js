@@ -1,12 +1,16 @@
 import { defineConfig } from 'vite';
-import shopify from 'vite-plugin-shopify';
+import shopify from 'vite-plugin-shopify-snapshot';
 import importMaps from 'vite-plugin-shopify-import-maps';
 import tailwindcss from '@tailwindcss/vite';
 
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [
-    shopify({ snippetFile: 'vite.liquid', versionNumbers: true }),
+    shopify({
+      snippetFile: 'vite.liquid',
+      versionNumbers: true,
+      tunnel: 'https://123abc.ngrok-free.app:3000',
+    }),
     tailwindcss(),
     importMaps({ bareModules: true }),
   ],
