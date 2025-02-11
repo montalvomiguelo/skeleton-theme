@@ -16,12 +16,9 @@
     "theme"
   ],
   "scripts": {
-    "dev": "concurrently --raw --kill-others --passthrough-arguments \"pnpm run shopify:dev {@}\" \"pnpm run vite:dev\"",
-    "shopify:dev": "shopify theme dev",
-    "vite:dev": "vite",
-    "deploy": "pnpm run build && pnpm run shopify:push",
-    "shopify:push": "shopify theme push",
+    "dev": "concurrently -c auto -n shopify,vite -k -P 'shopify theme dev {@}' 'vite'",
     "build": "vite build",
+    "deploy": "pnpm run build && shopify theme push",
     "format": "prettier --write --cache .",
     "lint": "eslint ."
   },
