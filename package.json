@@ -37,6 +37,7 @@
     "tailwindcss": "^4.0.12",
     "typescript": "^5.8.2",
     "vite": "^6.2.1",
-    "vite-plugin-shopify": "^3.2.0"
-  }
+    "vite-plugin-shopify": "^4.0.0"
+  },
+  "packageManager": "pnpm@10.8.0+sha512.0e82714d1b5b43c74610193cb20734897c1d00de89d0e18420aebc5977fa13d780a9cb05734624e81ebd81cc876cd464794850641c48b9544326b5622ca29971"
 }

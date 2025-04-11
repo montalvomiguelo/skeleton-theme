@@ -45,8 +45,8 @@ importers:
         specifier: ^6.2.1
         version: 6.2.1(@types/node@22.13.9)(jiti@2.4.2)(lightningcss@1.29.2)
       vite-plugin-shopify:
-        specifier: ^3.2.0
-        version: 3.2.0(vite@6.2.1(@types/node@22.13.9)(jiti@2.4.2)(lightningcss@1.29.2))
+        specifier: ^4.0.0
+        version: 4.0.0(vite@6.2.1(@types/node@22.13.9)(jiti@2.4.2)(lightningcss@1.29.2))
 
 packages:
 
@@ -2186,8 +2186,8 @@ packages:
   util-deprecate@1.0.2:
     resolution: {integrity: sha512-EPD5q1uXyFxJpCrLnCc1nHnq3gOa6DZBocAIiI2TaSCA7VCJ1UJDMagCzIkXNsUYfD1daK//LTEQ8xiIbrHtcw==}
 
-  vite-plugin-shopify@3.2.0:
-    resolution: {integrity: sha512-fV1J0iMtGjyzfc0KJPu3FdAlC61ynBD3wV3OfYja1qGnkYcXcnqQZV5PFQRht54uuz6o846bcyVEIusG1XGAEg==}
+  vite-plugin-shopify@4.0.0:
+    resolution: {integrity: sha512-ZLu6QZ1HUqnQBqLxQoOZjqWZExyBU5ZavI4jKQ6TsG129eISW6KAirUbRhmA3zwhxkEj3mXjCHznoBvPSj7nXA==}
     peerDependencies:
       vite: '>=5.4.12 <6.0.0 || >=6.0.9'
 
@@ -4416,7 +4416,7 @@ snapshots:
 
   util-deprecate@1.0.2: {}
 
-  vite-plugin-shopify@3.2.0(vite@6.2.1(@types/node@22.13.9)(jiti@2.4.2)(lightningcss@1.29.2)):
+  vite-plugin-shopify@4.0.0(vite@6.2.1(@types/node@22.13.9)(jiti@2.4.2)(lightningcss@1.29.2)):
     dependencies:
       '@shopify/cli-kit': 3.76.2
       '@shopify/plugin-cloudflare': 3.76.2
