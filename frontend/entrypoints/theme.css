@@ -1,1 +1,90 @@
-@import 'tailwindcss' source('../..');
+@import 'tailwindcss';
+@import '../..';
+
+/* HelloWorld Component Styles */
+hello-world {
+  display: block;
+  contain: content;
+}
+
+.hello-world-card {
+  max-width: 24rem;
+  margin: 0 auto;
+  background-color: white;
+  border: 1px solid #e5e7eb;
+  border-radius: 0.75rem;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  overflow: hidden;
+  transition: box-shadow 0.3s ease;
+}
+
+.hello-world-card:hover {
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
+
+.hello-world-card .card-content {
+  padding: 1.5rem;
+}
+
+.hello-world-card .card-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.hello-world-card .icon-container {
+  padding: 0.75rem;
+  background-color: #dbeafe;
+  border-radius: 9999px;
+  margin-right: 0.75rem;
+}
+
+.hello-world-card .icon {
+  width: 2rem;
+  height: 2rem;
+  color: #2563eb;
+}
+
+.hello-world-card h2 {
+  margin: 0;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  font-weight: 700;
+  color: #1f2937;
+}
+
+.hello-world-card p {
+  margin-bottom: 1.5rem;
+  color: #4b5563;
+}
+
+.hello-world-card .card-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hello-world-card .timestamp {
+  font-size: 0.875rem;
+  color: #6b7280;
+}
+
+.hello-world-card .btn {
+  padding: 0.5rem 1rem;
+  background-color: #2563eb;
+  color: white;
+  font-size: 0.875rem;
+  font-weight: 500;
+  border-radius: 0.375rem;
+  transition: background-color 0.2s;
+}
+
+.hello-world-card .btn:hover {
+  background-color: #1d4ed8;
+}
+
+.hello-world-card .btn:focus {
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+  box-shadow: 0 0 0 2px #bfdbfe;
+}
