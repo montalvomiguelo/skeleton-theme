@@ -1,18 +1,10 @@
-import { defineConfig, defaultAllowedOrigins } from 'vite';
+import { defineConfig } from 'vite';
 import shopify from 'vite-plugin-shopify';
 import tailwindcss from '@tailwindcss/vite';
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  plugins: [shopify({ snippetFile: 'vite.liquid' }), tailwindcss()],
-  server: {
-    cors: {
-      origin: [
-        defaultAllowedOrigins,
-        'https://johns-apparel.myshopify.com', // Store URL
-      ],
-    },
-  },
+  plugins: [shopify({ snippetFile: 'vite.liquid', tunnel: true }), tailwindcss()],
   build: {
     rollupOptions: {
       output: {
