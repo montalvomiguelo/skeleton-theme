@@ -36,8 +36,8 @@
     "prettier-plugin-tailwindcss": "^0.6.14",
     "tailwindcss": "^4.1.14",
     "typescript": "^5.9.3",
-    "vite": "^7.1.9",
-    "vite-plugin-shopify": "^4.0.2"
+    "vite": "^7.2.4",
+    "vite-plugin-shopify": "^4.1.0"
   },
   "packageManager": "pnpm@10.8.0+sha512.0e82714d1b5b43c74610193cb20734897c1d00de89d0e18420aebc5977fa13d780a9cb05734624e81ebd81cc876cd464794850641c48b9544326b5622ca29971"
 }
