@@ -25,19 +25,19 @@
     "typecheck": "tsc"
   },
   "devDependencies": {
-    "@eslint/js": "^9.37.0",
+    "@eslint/js": "^9.39.2",
     "@shopify/prettier-plugin-liquid": "^1.10.0",
-    "@tailwindcss/vite": "^4.1.14",
+    "@tailwindcss/vite": "^4.1.18",
     "concurrently": "^9.2.1",
-    "eslint": "^9.37.0",
+    "eslint": "^9.39.2",
     "eslint-config-prettier": "^10.1.8",
-    "globals": "^16.4.0",
-    "prettier": "^3.6.2",
-    "prettier-plugin-tailwindcss": "^0.6.14",
-    "tailwindcss": "^4.1.14",
+    "globals": "^17.0.0",
+    "prettier": "^3.7.4",
+    "prettier-plugin-tailwindcss": "^0.7.2",
+    "tailwindcss": "^4.1.18",
     "typescript": "^5.9.3",
-    "vite": "^7.2.4",
-    "vite-plugin-shopify": "^4.1.0"
+    "vite": "^7.3.1",
+    "vite-plugin-shopify": "^4.1.1"
   },
   "packageManager": "pnpm@10.8.0+sha512.0e82714d1b5b43c74610193cb20734897c1d00de89d0e18420aebc5977fa13d780a9cb05734624e81ebd81cc876cd464794850641c48b9544326b5622ca29971"
 }
