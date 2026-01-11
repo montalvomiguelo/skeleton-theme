@@ -9,7 +9,6 @@
     "strictNullChecks": true,
     "noEmit": true,
     "esModuleInterop": true,
-    "verbatimModuleSyntax": true,
     "skipLibCheck": true,
     "baseUrl": ".",
     "checkJs": true,
