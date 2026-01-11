@@ -1,9 +1,10 @@
-import js from '@eslint/js'
-import eslintConfigPrettier from 'eslint-config-prettier/flat'
-import globals from 'globals'
+import js from '@eslint/js';
+import { defineConfig } from 'eslint/config';
+import tseslint from 'typescript-eslint';
+import eslintConfigPrettier from 'eslint-config-prettier/flat';
+import globals from 'globals';
 
-/** @type {import('eslint').Linter.Config[]} */
-export default [
+export default defineConfig(
   {
     ignores: ['assets/'],
   },
@@ -16,5 +17,6 @@ export default [
     },
   },
   js.configs.recommended,
-  eslintConfigPrettier,
-]
+  tseslint.configs.recommended,
+  eslintConfigPrettier
+);
