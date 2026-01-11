@@ -4,7 +4,5 @@
       "type": "custom-liquid"
     }
   },
-  "order": [
-    "custom_liquid"
-  ]
+  "order": ["custom_liquid"]
 }
