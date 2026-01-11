@@ -1,0 +1,14 @@
+{
+  "categories": {
+    "layout": "Layout"
+  },
+  "info": {
+    "custom_liquid": "Add app snippets or other code to create advanced customizations. [Learn more](https://shopify.dev/docs/api/liquid)"
+  },
+  "names": {
+    "custom_liquid": "Custom liquid"
+  },
+  "settings": {
+    "custom_liquid": "Liquid code"
+  }
+}
