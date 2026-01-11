@@ -1,18 +1,20 @@
-import js from '@eslint/js';
-import globals from 'globals';
+import js from '@eslint/js'
+import eslintConfigPrettier from 'eslint-config-prettier/flat'
+import globals from 'globals'
 
 /** @type {import('eslint').Linter.Config[]} */
 export default [
-  js.configs.recommended,
+  {
+    ignores: ['assets/']
+  },
   {
     languageOptions: {
+      ecmaVersion: 2022,
       globals: {
-        ...globals.browser,
-        ...globals.node,
-      },
-    },
+        ...globals.browser
+      }
+    }
   },
-  {
-    ignores: ['assets/'],
-  },
-];
+  js.configs.recommended,
+  eslintConfigPrettier
+]
