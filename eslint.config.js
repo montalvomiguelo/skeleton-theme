@@ -5,16 +5,16 @@ import globals from 'globals'
 /** @type {import('eslint').Linter.Config[]} */
 export default [
   {
-    ignores: ['assets/']
+    ignores: ['assets/'],
   },
   {
     languageOptions: {
       ecmaVersion: 2022,
       globals: {
-        ...globals.browser
-      }
-    }
+        ...globals.browser,
+      },
+    },
   },
   js.configs.recommended,
-  eslintConfigPrettier
+  eslintConfigPrettier,
 ]
